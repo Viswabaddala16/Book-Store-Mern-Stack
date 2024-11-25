@@ -16,7 +16,7 @@ const ForgotPassword = () => {
     };
     return(
         <div className='h-screen bg-center bg-cover'
-        style={{ backgroundImage: "url('../../public/Image/images.png')" }}
+        style={{ backgroundImage: "url('/Image/images.png')" }}
         >   
             <h2 className='text-center text-2xl mb-6 '>Send Reset Link</h2>
             <form onSubmit={handleForgotPassword} className='text-center'>
