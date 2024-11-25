@@ -30,7 +30,7 @@ const ResetPassword = () => {
     };
     return(
         <div className='h-screen bg-cover bg-center'
-        style={{ backgroundImage: "url('../../public/Image/images.png')" }}
+        style={{ backgroundImage: "url('/Image/images.png')" }}
         >
             <h2 className='text-2xl mb-4 text-center'>Reset Passowrd</h2>
             {
