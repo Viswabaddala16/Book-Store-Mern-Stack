@@ -53,7 +53,7 @@ function Home() {
   return (
     <div
       className="p-4 h-screen bg-cover bg-center"
-      style={{ backgroundImage: "url('../../public/Image/images.png')" }}
+      style={{ backgroundImage: "url('/Image/images.png')" }}
     >
       <div className='flex justify-between items-center'>
         <h1 className='text-5xl my-8 mx-5'>
