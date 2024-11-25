@@ -26,7 +26,7 @@ function Signup() {
 
   return (
     <div className="p-4 h-screen bg-cover bg-center"
-      style={{ backgroundImage: "url('../../public/Image/loginImage.jpg')" }}
+      style={{ backgroundImage: "url('/Image/loginImage.jpg')" }}
     >
       <div className='flex justify-end relative gap-4 mr-6'>
         <div className='rounded bg-sky-300 hover:bg-blue-800 px-4 py-1'>
